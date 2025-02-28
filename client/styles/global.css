@@ -1,0 +1,52 @@
+body {
+  background-color: #151515;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #ffcc00;
+}
+
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.anime-card {
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+}
+
+.anime-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.anime-card a {
+  display: block;
+  background: #ffcc00;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.anime-card a:hover {
+  background: #ff9900;
+}
